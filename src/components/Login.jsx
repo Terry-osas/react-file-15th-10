@@ -8,8 +8,7 @@ function Login() {
   const [Inputed,setInputed]
   const HandleUsernameinput = (e) => {
     setInputdata({...Inputdata,Username: e.target.value});
-  };
-  const HandleEmailinput = (e) => {
+j  const HandleEmailinput = (e) => {
     setInputdata({...Inputdata,Email: e.target.value});
      
     const submit = (e) => {
