@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.backgrond{
+  background: url(../src/assets/cloud-forest-landscape.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
